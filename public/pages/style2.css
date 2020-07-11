@@ -1,42 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 
-table {
-    border-collapse: collapse;
-    border-spacing: 30;
-    -webkit-border-horizontal-spacing: 0px;
-    -webkit-border-vertical-spacing: 0px;
-    border: 10px;
-}   
-thead {
-    display: table-header-group;
-    vertical-align: middle;
-    border-color: rgb(59, 65, 81);
-    border-top-color: rgb(59, 65, 81);
-    border-right-color: rgb(59, 65, 81);
-    border-bottom-color: rgb(59, 65, 81);
-    border-left-color: rgb(59, 65, 81);
-    border-bottom: 10px;
-    border-right: 10px;
-    border-left: 10px;
-    border-top: 10px;
-}
 
-tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: rgb(59, 65, 81);
-    border-top-color: rgb(59, 65, 81);
-    border-right-color: rgb(59, 65, 81);
-    border-bottom-color: rgb(59, 65, 81);
-    border-left-color: rgb(59, 65, 81);
-    border-width: 10px;
-}
-
-body{
-    margin:0;
-    font-family:'Nunito', sans-serif;
-    background:#EFF1f7
-}
 .content{
     grid-area: content;
 }
@@ -194,4 +158,43 @@ footer img{
         width: 50px;
     }
     
+    table {
+        border-collapse: collapse;
+        border-spacing: 30;
+        -webkit-border-horizontal-spacing: 0px;
+        -webkit-border-vertical-spacing: 0px;
+        border: 10px;
+    }   
+    
+    thead {
+        display: table-header-group;
+        vertical-align: middle;
+        border-color: rgb(59, 65, 81);
+        border-top-color: rgb(59, 65, 81);
+        border-right-color: rgb(59, 65, 81);
+        border-bottom-color: rgb(59, 65, 81);
+        border-left-color: rgb(59, 65, 81);
+        border-bottom: 10px;
+        border-right: 10px;
+        border-left: 10px;
+        border-top: 10px;
+    }
+    
+    tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        border-color: rgb(59, 65, 81);
+        border-top-color: rgb(59, 65, 81);
+        border-right-color: rgb(59, 65, 81);
+        border-bottom-color: rgb(59, 65, 81);
+        border-left-color: rgb(59, 65, 81);
+        border-width: 10px;
+    }
+    
+    body{
+        margin:0;
+        font-family:'Nunito', sans-serif;
+        background:#EFF1f7
+    }
+
 }

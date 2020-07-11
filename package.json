@@ -1,7 +1,7 @@
 {
   "name": "cuaca-indonesia-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Unofficial Restful Api [bmkg.go.id](https://bmkg.go.id) built with node.js + express.js",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,5 +15,13 @@
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
     "request": "^2.88.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/febryardiansyah/bmkg.go.id-rest-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/febryardiansyah/bmkg.go.id-rest-api/issues"
+  },
+  "homepage": "https://github.com/febryardiansyah/bmkg.go.id-rest-api#readme"
 }
